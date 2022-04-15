@@ -1,0 +1,3 @@
+.\ffmpeg.exe -n -s:v 3840x2160 -framerate 60000/1001 -pix_fmt D:\4k to 8k\yuv420p10le -i input.yuv output_%03d.png
+
+.\ffmpeg.exe -n -s:v 3840x2160 -framerate 60000/1001 -pix_fmt yuv420p10le -i D:\4k-to-8k\c06_Drama_standingup_4K60P_PQ_YUV420P10LE.yuv D:\4k-to-8k\video2-png\output_%03d.png

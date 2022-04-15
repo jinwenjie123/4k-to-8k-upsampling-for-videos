@@ -1,0 +1,7 @@
+.\ffmpeg.exe -i D:\4k-to-8k\video1-png\YCbCrFrames\nearest\output_ycbcrnearest%03d.png -c:v rawvideo -pix_fmt yuv420p10le D:\4k-to-8k\ycbcrnearest1.yuv
+
+.\ffmpeg.exe -i D:\4k-to-8k\video1-png\YCbCrFrames\nearest\output_ycbcrnearest%03d.png -c:v rawvideo -pix_fmt yuv420p10le D:\4k-to-8k\yuv\video1ycbcrnearest.yuv
+
+.\ffmpeg.exe -i D:\4k-to-8k\video1-png\YCbCrFrames\bilinear\output_ycbcrbilinear%03d.png -c:v rawvideo -pix_fmt yuv420p10le D:\4k-to-8k\yuv\video1ycbcrbilinear.yuv
+
+.\ffmpeg.exe -i D:\4k-to-8k\video2-png\YCbCrFrames\bilinear\output_ycbcrbilinear%03d.png -c:v rawvideo -pix_fmt yuv420p10le D:\4k-to-8k\yuv\video2ycbcrbilinear.yuv
