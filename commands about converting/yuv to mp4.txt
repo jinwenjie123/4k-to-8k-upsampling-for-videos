@@ -1,0 +1,3 @@
+ffmpeg -y -s:v 7680x4320 -framerate 60000/1001 -pix_fmt yuv420p10le -i E:\4k-to-8k\yuv\OUTPUT_New1.yuv -c:v libx265 -x265-params "level-idc=6.1:bitrate=100000:colorprim=bt2020:transfer=smpte2084:colormatrix=bt2020nc:master-display=G(13250,34500)B(7500,3000)R(34000,16000)WP(15635,16450)L(10000000,47):sar=1:keyint=30:scenecut=30:rc-lookahead=30:me=umh:b-intra=1:bframes=1:bframe-bias=1:range=limited:tu-inter-depth=4:tu-intra-depth=4:ref=2:subme=7:hrd=1:weightb=1:psnr=1:repeat-headers=1" -r 60000/1001 -pix_fmt yuv420p10le -brand mp42 E:\4k-to-8k\yuv\OUTPUT.h265
+
+MP4Box -add E:\4k-to-8k\yuv\OUTPUT.h265 E:\4k-to-8k\yuv\OUTPUT_100M.mp4
