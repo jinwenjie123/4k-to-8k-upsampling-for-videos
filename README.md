@@ -46,7 +46,7 @@ testForLab.m
 ![image](https://user-images.githubusercontent.com/91431648/163505628-96510d56-1599-41de-ba4c-cb064bd3ccae.png)
 
 # Note: output files directory
-**For png files: ** 
+**For png files:** 
 original png files: D:/4k-to-8k/video1-png/output001.png  
 output png files: D:/4k-to-8k/video1-png/YCbCrFrames/nearest/output_ycbcrnearest001.png  
 
