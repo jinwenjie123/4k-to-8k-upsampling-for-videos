@@ -21,12 +21,12 @@ ffmpeg code is present in 'commands about converting' folder
 To produce upsampled frame for small image, use the function:  
 smallimage.m   
 
-**To produce multiple upsampled frames in different color spaces(YCbCr, Lab and ICtCp) and three interpolation methods(nearest neighbor interpolation, bilinear interpolation and bicubic interpolation), use the following functions:  **
+**To produce multiple upsampled frames in different color spaces(YCbCr, Lab and ICtCp) and three interpolation methods(nearest neighbor interpolation, bilinear interpolation and bicubic interpolation), use the following functions:**
 ForMultipleFrameYCbCr.m  
 ForMultipleFrameLab.m  
 ForMultipleFrameICtCp.m
 
-**To produce single upsampled frame in different color spaces(YCbCr, Lab and ICtCp) and three interpolation methods(nearest neighbor interpolation, bilinear interpolation and bicubic interpolation), use the following functions:  **
+**To produce single upsampled frame in different color spaces(YCbCr, Lab and ICtCp) and three interpolation methods(nearest neighbor interpolation, bilinear interpolation and bicubic interpolation), use the following functions:**
 testForICtCp.m
 testForYCbCr.m
 testForLab.m
