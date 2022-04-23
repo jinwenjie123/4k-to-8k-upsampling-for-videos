@@ -5,7 +5,8 @@ We tried the combination between 3 different color spaces and 3 different upsamp
 
 # For our code, please open our folder"MATLAB code" with a happy face
 
-For viewing the methods applied in colors spaces for small image:
+For viewing the methods applied in colors spaces for small image:  
+smallimage.m   
 
 For viewing the loop in different color spaces(YCbCr, Lab and ICtCp) and apply three interpolation methods(nearest neighbor interpolation, bilinear interpolation and bicubic interpolation) to generate output png files:  
 ForMultipleFrameYCbCr.m  
